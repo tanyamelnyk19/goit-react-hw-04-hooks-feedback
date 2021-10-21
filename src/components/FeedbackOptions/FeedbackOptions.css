@@ -1,0 +1,23 @@
+.buttonsList {
+  display: flex;
+}
+
+.buttonItem + .buttonItem {
+  margin-left: 10px;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(133, 132, 132, 0.671);
+  text-transform: capitalize;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(26, 83, 206);
+  color: aliceblue;
+}
